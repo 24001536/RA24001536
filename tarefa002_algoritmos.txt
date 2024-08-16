@@ -1,0 +1,31 @@
+1)
+
+//Recepção - Diga “oi” e siga em frente
+/*Este código contabiliza o número de visitantes por dia de uma empresa*/
+
+#include <stdio.h>
+int main ()  {
+ int oi = 1;
+ printf(“Diga oi!: ”)
+ scanf(“%d”, &1)
+ printf(“Número de pessoas que disseram oi = %d”, &oi)
+ return 0;
+}
+
+
+2)
+
+//Receita diária do almoço
+/*Este código apresenta o custo diário para o almoço*/
+
+#include <stdio.h>
+int main ()  { 
+ float x, y, receita;
+ printf(“Informe seu valor de ganho: ”);
+ scanf(“%f”, &x);
+ printf(“Informe seu valor de custo: ”);
+ scanf(“%f”, &y);
+ receita = x - y;
+ printf(“O valor da sua receita do dia é: ”, &receita);
+ return 0;
+}
